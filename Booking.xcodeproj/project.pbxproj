@@ -6,17 +6,26 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		037140A32D65D0FE00163930 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0371409C2D65D0FE00163930 /* Preview Assets.xcassets */; };
+		037140A42D65D0FE00163930 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0371409E2D65D0FE00163930 /* Assets.xcassets */; };
+		037140A52D65D0FE00163930 /* BookingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0371409F2D65D0FE00163930 /* BookingApp.swift */; };
+		037140A62D65D0FE00163930 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037140A02D65D0FE00163930 /* ContentView.swift */; };
+		037140A72D65D0FE00163930 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037140A12D65D0FE00163930 /* Date+Extension.swift */; };
+		037140AA2D65DDAC00163930 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037140A92D65DDAC00163930 /* View+Extension.swift */; };
+		037140AC2D65E58000163930 /* OffsetKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037140AB2D65E58000163930 /* OffsetKey.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		037140892D65D0C300163930 /* Booking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Booking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0371409C2D65D0FE00163930 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0371409E2D65D0FE00163930 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0371409F2D65D0FE00163930 /* BookingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingApp.swift; sourceTree = "<group>"; };
+		037140A02D65D0FE00163930 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		037140A12D65D0FE00163930 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		037140A92D65DDAC00163930 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		037140AB2D65E58000163930 /* OffsetKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetKey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		0371408B2D65D0C300163930 /* Booking */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Booking;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		037140862D65D0C300163930 /* Frameworks */ = {
@@ -32,7 +41,7 @@
 		037140802D65D0C300163930 = {
 			isa = PBXGroup;
 			children = (
-				0371408B2D65D0C300163930 /* Booking */,
+				037140A22D65D0FE00163930 /* Booking */,
 				0371408A2D65D0C300163930 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +52,36 @@
 				037140892D65D0C300163930 /* Booking.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		0371409D2D65D0FE00163930 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0371409C2D65D0FE00163930 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		037140A22D65D0FE00163930 /* Booking */ = {
+			isa = PBXGroup;
+			children = (
+				0371409D2D65D0FE00163930 /* Preview Content */,
+				0371409E2D65D0FE00163930 /* Assets.xcassets */,
+				0371409F2D65D0FE00163930 /* BookingApp.swift */,
+				037140A02D65D0FE00163930 /* ContentView.swift */,
+				037140A82D65D10200163930 /* Extensions */,
+			);
+			path = Booking;
+			sourceTree = "<group>";
+		};
+		037140A82D65D10200163930 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				037140A12D65D0FE00163930 /* Date+Extension.swift */,
+				037140A92D65DDAC00163930 /* View+Extension.swift */,
+				037140AB2D65E58000163930 /* OffsetKey.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +98,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				0371408B2D65D0C300163930 /* Booking */,
 			);
 			name = Booking;
 			packageProductDependencies = (
@@ -109,6 +145,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				037140A32D65D0FE00163930 /* Preview Assets.xcassets in Resources */,
+				037140A42D65D0FE00163930 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +157,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				037140A52D65D0FE00163930 /* BookingApp.swift in Sources */,
+				037140AC2D65E58000163930 /* OffsetKey.swift in Sources */,
+				037140A62D65D0FE00163930 /* ContentView.swift in Sources */,
+				037140AA2D65DDAC00163930 /* View+Extension.swift in Sources */,
+				037140A72D65D0FE00163930 /* Date+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
