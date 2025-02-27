@@ -14,6 +14,8 @@
 		037140A72D65D0FE00163930 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037140A12D65D0FE00163930 /* Date+Extension.swift */; };
 		037140AA2D65DDAC00163930 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037140A92D65DDAC00163930 /* View+Extension.swift */; };
 		037140AC2D65E58000163930 /* OffsetKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037140AB2D65E58000163930 /* OffsetKey.swift */; };
+		037140C42D65F2D600163930 /* MainUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037140C32D65F2D600163930 /* MainUIView.swift */; };
+		03F9B85B2D6DC88100774D5C /* WeekUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F9B85A2D6DC88100774D5C /* WeekUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		037140A12D65D0FE00163930 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 		037140A92D65DDAC00163930 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
 		037140AB2D65E58000163930 /* OffsetKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetKey.swift; sourceTree = "<group>"; };
+		037140C32D65F2D600163930 /* MainUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainUIView.swift; sourceTree = "<group>"; };
+		03F9B85A2D6DC88100774D5C /* WeekUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +72,7 @@
 				0371409D2D65D0FE00163930 /* Preview Content */,
 				0371409E2D65D0FE00163930 /* Assets.xcassets */,
 				0371409F2D65D0FE00163930 /* BookingApp.swift */,
-				037140A02D65D0FE00163930 /* ContentView.swift */,
+				037140C22D65F2C100163930 /* Views */,
 				037140A82D65D10200163930 /* Extensions */,
 			);
 			path = Booking;
@@ -82,6 +86,16 @@
 				037140AB2D65E58000163930 /* OffsetKey.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		037140C22D65F2C100163930 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				037140A02D65D0FE00163930 /* ContentView.swift */,
+				037140C32D65F2D600163930 /* MainUIView.swift */,
+				03F9B85A2D6DC88100774D5C /* WeekUIView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,10 +172,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				037140A52D65D0FE00163930 /* BookingApp.swift in Sources */,
+				03F9B85B2D6DC88100774D5C /* WeekUIView.swift in Sources */,
 				037140AC2D65E58000163930 /* OffsetKey.swift in Sources */,
 				037140A62D65D0FE00163930 /* ContentView.swift in Sources */,
 				037140AA2D65DDAC00163930 /* View+Extension.swift in Sources */,
 				037140A72D65D0FE00163930 /* Date+Extension.swift in Sources */,
+				037140C42D65F2D600163930 /* MainUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
